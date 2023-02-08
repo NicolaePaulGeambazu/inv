@@ -1,6 +1,5 @@
 import './App.css';
 import React, { useEffect, useState} from 'react';
-import styled from 'styled-components';
 import image from '../src/img/image.svg';
 import dateEvent from '../src/img/date.svg'
 import "typeface-calligraffitti"
@@ -10,17 +9,17 @@ function App() {
   const [showComponent, setShowComponent] = useState(false)
   const [names, setNames] = useState([]);
   /**Text in Romanian */
-  const text1Ro= 'Va asteptam cu mare drag sa ne fiti alaturi la';
+  const text1Ro= 'În cea mai specială zi din viața noastră, noi';
   const mire = 'Paul Nicolae Geambazu';
   const mireasa = 'Camelia Geambazu';
-  const impreunaCuRo = 'Impreuna cu nasii nostri';
-  const nasu = 'Catalin Jiga';
+  const impreunaCuRo = 'Împreună cu nașii noștri';
+  const nasu = 'Cătălin Jiga';
   const nasa = 'Roxana Jiga';
-  const firstMsgRo = 'vrem sa va spunem prin acest link urmatoarele'
+  const firstMsgRo = 'vrem să vă spunem prin acest link următoarele.'
   /**Text in English */
-  const text1Eng= 'We look forward to having you join us at';
-  const impreunaCuEng = 'Toghether with our godparents';
-  const firstMsgEng = 'we want to tell you the following through this link';
+  const text1Eng= 'We eagerly anticipate your participation in our gathering at';
+  const impreunaCuEng = 'In concurrence with our godparents';
+  const firstMsgEng = 'We desire to impart the subsequent information to you via this link';
 
 
   /**Text in Italian */
@@ -102,7 +101,7 @@ const showNames = (names) => {
     </div>
     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center'}}>&</div>
     <div>{nasa}</div>
-      
+    <div>Vă așteptăm să ne fiți alături.</div>
     </div>
     </div> 
     <div style={{  paddingBottom: '10px', marginLeft: '-25px'}}>
@@ -110,7 +109,7 @@ const showNames = (names) => {
     </div>
     <div style={{ margin: 'auto', textAlign: 'center'}}>
       <div>
-      La Nasu
+      La Nașu
       </div>
       <div style={{ width: '40%', margin: 'auto'}}>166 Tolladine Rd, Worcester</div>
       </div> 
